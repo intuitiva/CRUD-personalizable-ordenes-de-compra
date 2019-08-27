@@ -50,3 +50,29 @@ Este proyecto consiste en mostrar una vista personalizada de las ordenes de comp
  
   GATSBY_PREPARAR_OC='preparar-creacion-oc'
   GATSBY_AUTORIZAR_OC='autorizar-oc'
+```
+## Instalación y configuración
+### 1. Instalar dependencias (para localhost)
+
+Si usas npm
+
+```bash
+$ npm install
+```
+
+Si usas yarn
+
+```bash
+$ yarn install
+```
+
+### Deployment en Netlify
+
+1. Conectar github con Netlify, y publicar
+2. Habilitar dominio
+3. Habilitar HTTPS
+4. Agregar las variables de entorno y sus valores
+5. Habilitar Netlify Identity y configurarlo para que sea invite only
+6. Invitar a alguien
+
+Licencia MIT
