@@ -1,0 +1,8 @@
+node_modules/
+.cache/
+dev/
+functions/
+hidden/
+public/
+server/
+netlify1.toml
