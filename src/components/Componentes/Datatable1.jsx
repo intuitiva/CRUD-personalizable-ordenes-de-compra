@@ -121,6 +121,34 @@ export default class Datatable1 extends Component {
           }
         },
         {
+          targets: 1,
+          createdCell: (td, cellData, rowData, row, col) => {
+            if (cellData) {
+              function decodeHtml(html) {
+                var txt = document.createElement('textarea');
+                txt.innerHTML = html;
+                return txt.value;
+              }
+              const content = this.extractText(cellData);
+              return ReactDOM.render(<span>{decodeHtml(content)}</span>, td);
+            }
+          }
+        },
+        {
+          targets: 3,
+          createdCell: (td, cellData, rowData, row, col) => {
+            if (cellData) {
+              function decodeHtml(html) {
+                var txt = document.createElement('textarea');
+                txt.innerHTML = html;
+                return txt.value;
+              }
+              const content = this.extractText(cellData);
+              return ReactDOM.render(<span>{decodeHtml(content)}</span>, td);
+            }
+          }
+        },
+        {
           targets: 5,
           createdCell: (td, cellData, rowData, row, col) => {
             if (cellData) {
