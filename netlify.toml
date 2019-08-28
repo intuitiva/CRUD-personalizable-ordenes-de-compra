@@ -6,12 +6,12 @@
 [build.environment]
 
   # Credenciales
-  GATSBY_EMAIL=''
-  GATSBY_TOKEN=''
-  GATSBY_EDITAR='false'
-  GATSBY_ACTIVAR_PERSONALIZACION='true'
+  #GATSBY_EMAIL='correo_x@zauru.com'
+  #GATSBY_TOKEN='1234567890ABCD'
+  #GATSBY_EDITAR='false'
+  #GATSBY_ACTIVAR_PERSONALIZACION='true'
 
-  GATSBY_ZAURU_DOMAIN=''
+  #GATSBY_ZAURU_DOMAIN=''
   GATSBY_ZAURU_GET1='/apps/documents_structures/purchase_order.json'
   GATSBY_ZAURU_GET2='/apps/webapp_vars.json'
   GATSBY_ZAURU_CREAR_VARIABLE='/apps/webapp_vars.json'
@@ -31,7 +31,7 @@
   
   GATSBY_ZAURU_PREPARAR_OC='/purchases/purchase_orders/new.json'
 
-  GATSBY_LAMBDA_DOMAIN=''
+  #GATSBY_LAMBDA_DOMAIN=''
   GATSBY_LAMBDA_GET1='get1'
   GATSBY_LAMBDA_GET2='get2'
   GATSBY_LAMBDA_CREAR_VARIABLE='crear-variable'
