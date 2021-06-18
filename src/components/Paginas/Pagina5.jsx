@@ -25,7 +25,7 @@ export default class Pagina5 extends Component {
       origenDeLaMercaderia: null,
       proveedor: "",
       referencia: "",
-      sujetoAImpuestos: false,
+      sujetoAImpuestos: true,
       terminoDePago: null,
       variables: []
     };
